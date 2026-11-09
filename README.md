@@ -2,7 +2,7 @@
 
 **Universidad Tecnológica de Panamá** · Facultad de Ingeniería en Sistemas · Campus Víctor Levis Sasso
 **Grupo:** 1IL133 · **Instructora:** Ing. Irina Fong · **II Semestre 2026**
-**Estudiante:** _[Tu nombre completo]_ · **Fecha:** 09 de noviembre de 2026
+**Estudiante:** Josseline Gaitán · **Fecha:** 09 de noviembre de 2026
 
 ---
 
@@ -122,7 +122,8 @@ for (int i = 0; i < figuras.Length; i++)
 
 Cada objeto ejecuta su propia versión de `CalcularArea()` y `CalcularPerimetro()` aunque se acceda a él desde una variable de tipo `Figura`.
 
-![Parte 1 – Figuras y polimorfismo](capturas/01_figuras.png)
+<img width="816" height="647" alt="01_figuras" src="https://github.com/user-attachments/assets/e1d8db71-105c-4f95-bf36-56ab13cd7b03" />
+
 
 ---
 
@@ -155,7 +156,8 @@ Console.WriteLine(json);
 
 Salida: `{"Nombre":"Cristell","Edad":20,"Carrera":"Ingenieria en Sistemas"}`
 
-![Parte 2 – JSON](capturas/02_json.png)
+<img width="816" height="647" alt="02_json" src="https://github.com/user-attachments/assets/c0f159ff-8bb9-48b8-ab93-ba4f882ce7f1" />
+
 
 ---
 
@@ -200,23 +202,28 @@ else
 
 **Menú principal y registro de usuario (hash generado – 5 pts).** Se genera el hash BCrypt (`$2a$11$...`) y se guarda en la base de datos.
 
-![Registro de usuario](capturas/03_registro.png)
+<img width="816" height="647" alt="03_registro" src="https://github.com/user-attachments/assets/27d09551-d164-4441-9f3f-6e56520f37cb" />
+
 
 **Intento fallido.** `BCrypt.Verify()` rechaza la contraseña incorrecta y el intento queda registrado.
 
-![Login fallido](capturas/04_login_fallido.png)
+<img width="816" height="647" alt="04_login_fallido" src="https://github.com/user-attachments/assets/ebfb0999-3990-45d3-b249-d56736388326" />
+
 
 **Acceso exitoso (verificación con `BCrypt.Verify()` y nombre del usuario – 10 pts).** La contraseña original es aceptada y el programa muestra el nombre: *Cristell Gonzalez*.
 
-![Login exitoso](capturas/05_login_exitoso.png)
+<img width="816" height="647" alt="05_login_exitoso" src="https://github.com/user-attachments/assets/362043c7-db7a-42fb-b07c-e879432cf1ca" />
+
 
 **Historial de intentos.** La opción 3 lista los intentos con fecha, usuario, resultado y detalle.
 
-![Historial de intentos](capturas/06_historial.png)
+<img width="816" height="647" alt="06_historial" src="https://github.com/user-attachments/assets/b4c51130-2fc5-43d1-b66e-f9e375bb84db" />
+
 
 **Contenido de la base de datos.** `Usuarios` guarda únicamente el hash; `IntentosLogin` guarda los intentos exitosos y fallidos.
 
-![Base de datos](capturas/07_base_datos.png)
+<img width="816" height="647" alt="07_base_datos" src="https://github.com/user-attachments/assets/09afbc1b-3a69-452d-9c02-cdda3a8002b7" />
+
 
 ### 6.4 Consulta de análisis
 
