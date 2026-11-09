@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gPdViE7DRZU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\josse\\Downloads\\Parcial Jossy\\Parcial Jossy\\Parte2_Json\\Parte2_Json.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\josse\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
