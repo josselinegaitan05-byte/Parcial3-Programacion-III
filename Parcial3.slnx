@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Parte1_Figuras/Parte1_Figuras.csproj" />
+  <Project Path="Parte2_Json/Parte2_Json.csproj" />
+  <Project Path="Parte3_LoginBCrypt/Parte3_LoginBCrypt.csproj" />
+</Solution>
